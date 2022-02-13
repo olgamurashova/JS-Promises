@@ -1,1 +1,5 @@
-# JS-Promises
+## JS Promises
+
+### General information
+
+### Tools used
