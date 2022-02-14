@@ -16,3 +16,15 @@ const handleFailure = (rejectionReason) => {
 };
  
 prom.then(handleSuccess, handleFailure);
+
+//another example
+
+const examplePromise = () => {
+  return new Promise((resolve, reject) => {
+    if (true) {
+      setTimeout( () => resolve('success'), 3000);
+    } else {
+      setTimeout( () => resolve('failed'), 5000);
+    }
+  });
+};
